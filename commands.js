@@ -86,6 +86,7 @@ db.bounties.insertMany([
 // 1. Query for all bounties in the Grasslands
 db.bounties.find({location: 'Grasslands'})
 
+
 // 2. Query for all bounties with a reward worth 10000 or more
 db.bounties.find({reward: {$gte: 10000 }})
 
